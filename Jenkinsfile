@@ -6,8 +6,8 @@ pipeline {
     
 
     environment {
-        SCANNER_HOME = tool 'sonar-scanner'
-        SONAR_TOKEN = credentials('sonar-token')
+        SCANNER_HOME = tool 'SONAR_TOKEN'
+        SONAR_TOKEN = credentials('SONAR_TOKEN')
         SONAR_ORGANIZATION = 'abdullah-dev-max'
         SONAR_PROJECT_KEY = 'abdullah-dev-max_jenkins'
     }
